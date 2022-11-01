@@ -11,4 +11,4 @@
 module load anaconda
 conda activate yolov5
 
-python prepare.py "${DIR_PATH}"
+python detect.py "${DIR_PATH}"

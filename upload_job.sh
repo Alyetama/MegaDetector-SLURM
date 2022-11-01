@@ -10,4 +10,4 @@
 module load rclone
 
 rclone sync "${SRC}" "${DEST}" \
-    -P --stats-one-line --transfers 100
+    -P --stats-one-line --transfers 50

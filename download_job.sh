@@ -10,5 +10,5 @@
 module load rclone
 
 rclone copy "${SRC}" "${DEST}"
-  -P --stats-one-line --transfers 100 # \
+  -P --stats-one-line --transfers 50 # \
   # --drive-shared-with-me
